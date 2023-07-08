@@ -1,0 +1,39 @@
+.title {
+  color: blue;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: auto;
+}
+
+.frame {
+  margin: 1rem;
+  overflow: hidden;
+  height: 40vh;
+}
+
+.resim {
+  width: 30vh;
+  height: 40vh;
+  object-fit: cover;
+  transition: all 0.6s;
+  &:hover {
+    transform: scale(1.3);
+  }
+}
+
+.isim {
+  color: rgb(8, 194, 245);
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
