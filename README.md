@@ -1,4 +1,3 @@
-
 # Project : Image Gallery
 
 ## Live at: https://image-gallery-umut.netlify.app/
